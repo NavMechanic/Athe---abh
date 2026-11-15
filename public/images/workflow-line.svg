@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="Conveyor line with eight stations, N1 to N8">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E2E8F0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="360" fill="url(#bg)"/>
+  <ellipse cx="600" cy="300" rx="560" ry="18" fill="#0B1F3A" fill-opacity="0.12"/>
+  <rect x="40" y="236" width="1120" height="22" rx="4" fill="#0B1F3A"/>
+  <rect x="40" y="230" width="1120" height="6" fill="#0F766E"/>
+  <g fill="#94A3B8">
+    <rect x="80" y="258" width="10" height="38"/><rect x="360" y="258" width="10" height="38"/>
+    <rect x="640" y="258" width="10" height="38"/><rect x="920" y="258" width="10" height="38"/>
+    <rect x="1110" y="258" width="10" height="38"/>
+  </g>
+  <g font-family="ui-monospace, Consolas, monospace" font-size="20" font-weight="700" text-anchor="middle">
+    <g fill="#12305A">
+      <rect x="62" y="110" width="96" height="112" rx="8"/><rect x="202" y="110" width="96" height="112" rx="8"/>
+      <rect x="342" y="110" width="96" height="112" rx="8"/><rect x="482" y="110" width="96" height="112" rx="8"/>
+      <rect x="622" y="110" width="96" height="112" rx="8"/><rect x="762" y="110" width="96" height="112" rx="8"/>
+      <rect x="902" y="110" width="96" height="112" rx="8"/><rect x="1042" y="110" width="96" height="112" rx="8"/>
+    </g>
+    <g fill="#F59E0B">
+      <rect x="62" y="110" width="96" height="6" rx="3"/><rect x="202" y="110" width="96" height="6" rx="3"/>
+      <rect x="342" y="110" width="96" height="6" rx="3"/><rect x="482" y="110" width="96" height="6" rx="3"/>
+      <rect x="622" y="110" width="96" height="6" rx="3"/><rect x="762" y="110" width="96" height="6" rx="3"/>
+      <rect x="902" y="110" width="96" height="6" rx="3"/><rect x="1042" y="110" width="96" height="6" rx="3"/>
+    </g>
+    <g fill="#FFFFFF">
+      <text x="110" y="174">N1</text><text x="250" y="174">N2</text><text x="390" y="174">N3</text><text x="530" y="174">N4</text>
+      <text x="670" y="174">N5</text><text x="810" y="174">N6</text><text x="950" y="174">N7</text><text x="1090" y="174">N8</text>
+    </g>
+  </g>
+  <rect x="80" y="218" width="60" height="10" rx="2" fill="#14B8A6"/>
+</svg>

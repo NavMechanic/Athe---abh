@@ -1,0 +1,58 @@
+[
+  {
+    "id": "N1",
+    "name": "Market Intelligence",
+    "purpose": "Build the evidence base for what to build and for whom, before engineering time is committed.",
+    "inputs": ["Customer enquiries and RFQs", "Published standards and regulations", "Public tender and market data"],
+    "outputs": ["Opportunity brief", "Requirement signals by segment", "Standards and competitor map"]
+  },
+  {
+    "id": "N2",
+    "name": "Product Definition",
+    "purpose": "Turn the opportunity into a specification that can be designed, costed and tested against.",
+    "inputs": ["Opportunity brief", "Customer requirements", "Target cost and compliance scope"],
+    "outputs": ["Product requirement specification", "Compliance plan", "Feature and variant matrix"]
+  },
+  {
+    "id": "N3",
+    "name": "Design Engineering",
+    "purpose": "Produce the electrical, mechanical and thermal design that meets the specification.",
+    "inputs": ["Product requirement specification", "Preferred parts library", "Simulation and CAE models"],
+    "outputs": ["Schematics and PCB layout", "Enclosure and thermal design", "BOM and design review records"]
+  },
+  {
+    "id": "N4",
+    "name": "Quality & Reliability",
+    "purpose": "Prove the design before it is committed to volume, and define how every unit will be tested.",
+    "inputs": ["Design files", "Test specification", "Applicable standards"],
+    "outputs": ["DFMEA and test plan", "ATE fixture and program definition", "Validation and reliability reports"]
+  },
+  {
+    "id": "N5",
+    "name": "Sourcing & Manufacturing",
+    "purpose": "Secure parts and build capacity with known lead times, alternates and process controls.",
+    "inputs": ["BOM and drawings", "Approved vendor list", "Quality requirements"],
+    "outputs": ["Supplier quote comparison", "Manufacturing process plan", "Build and inspection records"]
+  },
+  {
+    "id": "N6",
+    "name": "Commercial & Fulfilment",
+    "purpose": "Keep proposals, orders and deliveries aligned with what engineering and manufacturing can deliver.",
+    "inputs": ["RFQ and quote basis", "Build status", "Logistics requirements"],
+    "outputs": ["Proposal and milestone plan", "Order and delivery tracking", "Documentation pack"]
+  },
+  {
+    "id": "N7",
+    "name": "Finance & Costing",
+    "purpose": "Keep a live cost model so design and sourcing choices are made with their cost impact visible.",
+    "inputs": ["BOM and supplier quotes", "Engineering effort and NRE", "Duty, freight and tax assumptions"],
+    "outputs": ["Should-cost model", "Margin and cash-flow view", "Variance report against target"]
+  },
+  {
+    "id": "N8",
+    "name": "Telemetry & Lifecycle",
+    "purpose": "Feed test and field data back into the design, and manage change and obsolescence over the product's life.",
+    "inputs": ["Production test and field data", "Service records", "Component lifecycle notices"],
+    "outputs": ["Reliability trends", "Engineering change proposals", "Obsolescence plan"]
+  }
+]

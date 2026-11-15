@@ -1,0 +1,33 @@
+{
+  "readinessLevels": ["Concept", "Specification draft", "Design study", "Prototype", "Validated"],
+  "items": [
+    {
+      "id": "smps",
+      "name": "Industrial AC-DC SMPS",
+      "class": "150 W to 600 W class",
+      "body": "Enclosed and open-frame supplies for industrial control and instrumentation, with wide input range for Indian grid conditions.",
+      "readiness": "Specification draft"
+    },
+    {
+      "id": "ups",
+      "name": "Online double-conversion UPS",
+      "class": "1 kVA to 3 kVA class",
+      "body": "Double-conversion topology for sensitive loads, with battery management and remote monitoring hooks.",
+      "readiness": "Concept"
+    },
+    {
+      "id": "dcdc",
+      "name": "Isolated DC-DC converter",
+      "class": "Telecom and industrial bus voltages",
+      "body": "Board-mount and chassis-mount converters for distributed power architectures.",
+      "readiness": "Concept"
+    },
+    {
+      "id": "charger",
+      "name": "Battery charger and rectifier",
+      "class": "Lead-acid and lithium-ion profiles",
+      "body": "Programmable charge profiles with protection and telemetry for standby power systems.",
+      "readiness": "Design study"
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "name": "ATHENA",
+  "tagline": "AI-orchestrated electronics engineering and Virtual OEM",
+  "siteUrl": "https://example.com",
+  "contactEmail": "projects@example.com",
+  "demoLabel": "Illustrative / Demo Data",
+  "seo": {
+    "title": "ATHENA | Electronics engineering and Virtual OEM for power products",
+    "description": "ATHENA is an India-first, AI-orchestrated electronics engineering and Virtual OEM workflow for power products (SMPS, UPS), automated test equipment and new product development.",
+    "keywords": [
+      "electronics engineering",
+      "Virtual OEM",
+      "SMPS design",
+      "UPS design",
+      "automated test equipment",
+      "new product development",
+      "India"
+    ]
+  },
+  "cta": {
+    "primary": { "label": "Discuss a Project", "href": "#contact" },
+    "secondary": { "label": "Explore ATHENA Demo", "href": "#workflow" }
+  },
+  "nav": [
+    { "label": "Why ATHENA", "href": "#proposition" },
+    { "label": "Workflow", "href": "#workflow" },
+    { "label": "Services", "href": "#services" },
+    { "label": "Products", "href": "#products" },
+    { "label": "Process", "href": "#process" },
+    { "label": "Co-development", "href": "#co-development" }
+  ],
+  "hero": {
+    "eyebrow": "India-first · Power products · ATE · NPD",
+    "title": "Electronics engineering and Virtual OEM, run as one traceable workflow.",
+    "body": "ATHENA connects market intelligence, product definition, design, quality, sourcing and costing across eight linked nodes. Software agents prepare and cross-check the work; engineers review and approve it.",
+    "video": {
+      "src": "/video/hero.mp4",
+      "poster": "/images/hero-poster.svg",
+      "label": "Product visual: ATHENA power product concept on a studio backdrop"
+    }
+  },
+  "problem": {
+    "eyebrow": "The problem",
+    "title": "Hardware programmes fail in the hand-offs.",
+    "intro": "Most delays and cost overruns in power electronics come from decisions that were made in one team and discovered late in another.",
+    "items": [
+      {
+        "title": "Fragmented hand-offs",
+        "body": "Requirements, design, sourcing and costing sit in separate tools and teams, and decisions get lost between them."
+      },
+      {
+        "title": "Late cost and compliance surprises",
+        "body": "Cost, thermal and compliance issues surface after layout or tooling, when changes are most expensive."
+      },
+      {
+        "title": "Supply exposure",
+        "body": "Single-source parts and long lead times are found at build time instead of at design time."
+      },
+      {
+        "title": "Test designed last",
+        "body": "Production test is defined late, so field failures end up doing the validation."
+      }
+    ]
+  },
+  "proposition": {
+    "eyebrow": "The proposition",
+    "title": "One workflow from market signal to field data.",
+    "intro": "ATHENA treats a product programme as a single record that every discipline reads from and writes to.",
+    "items": [
+      {
+        "title": "Eight connected nodes",
+        "body": "Each node has defined inputs and outputs, so every specification, design file, quote and test result is traceable to its source."
+      },
+      {
+        "title": "Engineers decide, software prepares",
+        "body": "AI agents draft, cross-check and track. Qualified engineers review and approve every release."
+      },
+      {
+        "title": "Virtual OEM",
+        "body": "Own the product and the brand without owning a factory. ATHENA coordinates design, test and qualified manufacturing partners."
+      },
+      {
+        "title": "India-first",
+        "body": "Requirements, design ownership and quality gates are run from India, for Indian operating conditions and applicable standards."
+      }
+    ]
+  },
+  "workflow": {
+    "eyebrow": "ATHENA demo",
+    "title": "The eight-node workflow",
+    "intro": "Follow a board down the line. Each station is one node: what it is for, what it consumes and what it hands on."
+  },
+  "services": {
+    "eyebrow": "Services",
+    "title": "Engineering services across the product lifecycle",
+    "intro": "Engage ATHENA for a single work package or for the full programme."
+  },
+  "products": {
+    "eyebrow": "Power product concepts",
+    "title": "Concepts in the power product line",
+    "intro": "These are engineering concepts, not catalogue items. No price or stock information is shown, and the ratings are indicative classes only."
+  },
+  "process": {
+    "eyebrow": "How a project runs",
+    "title": "From RFQ to milestones",
+    "status": "Planned",
+    "intro": "This is the planned project flow for the ATHENA platform. Until it is live, projects start with a direct conversation.",
+    "steps": [
+      {
+        "title": "RFQ",
+        "body": "You submit the requirement: application, ratings, standards, volumes and target dates."
+      },
+      {
+        "title": "Bids",
+        "body": "Qualified engineering and manufacturing partners respond against one common scope, so bids are comparable."
+      },
+      {
+        "title": "Award",
+        "body": "Scope, cost basis, deliverables and acceptance criteria are agreed before work begins."
+      },
+      {
+        "title": "Milestones",
+        "body": "Work moves through gated reviews, with deliverables and payments tied to each milestone."
+      }
+    ]
+  },
+  "coDevelopment": {
+    "eyebrow": "India-China co-development",
+    "title": "Designed and governed in India, built with the wider supply ecosystem",
+    "intro": "ATHENA's operating model pairs Indian design ownership with access to China's component and tooling ecosystem, under one design record and one set of quality gates.",
+    "columns": [
+      {
+        "title": "India",
+        "points": [
+          "Customer interface and requirements",
+          "System architecture and design ownership",
+          "Validation, reliability and compliance planning",
+          "Final assembly and test options for Indian supply"
+        ]
+      },
+      {
+        "title": "Shared controls",
+        "points": [
+          "One design record and revision history",
+          "Common quality gates and inspection criteria",
+          "Documentation and IP controlled from India",
+          "Dual-source planning for critical parts"
+        ]
+      },
+      {
+        "title": "China",
+        "points": [
+          "Component ecosystem and magnetics supply",
+          "Tooling and rapid prototyping",
+          "PCB fabrication and assembly capacity",
+          "Volume manufacturing options"
+        ]
+      }
+    ],
+    "note": "Partners are qualified per project. No partner names, certifications or capacities are claimed on this page."
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Discuss a project",
+    "intro": "Tell us what you are building. This form has no server behind it yet: it drafts an email in your own mail app, and nothing is sent until you send it.",
+    "projectTypes": [
+      "New product development",
+      "SMPS / UPS design",
+      "PCB or enclosure design",
+      "CAE and simulation",
+      "ATE and reliability",
+      "Sourcing",
+      "Virtual OEM programme",
+      "Other"
+    ],
+    "consent": "I agree to ATHENA using the details above to reply to this enquiry.",
+    "submitLabel": "Draft email enquiry"
+  },
+  "footer": {
+    "summary": "AI-orchestrated electronics engineering and Virtual OEM. India-first.",
+    "disclaimer": "Sample figures and product details on this page are Illustrative / Demo Data. No customers, prices, certifications, stock or tender wins are claimed."
+  }
+}

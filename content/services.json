@@ -1,0 +1,38 @@
+[
+  {
+    "id": "npd",
+    "title": "New product development",
+    "body": "Requirement capture, architecture, design, prototype and validation planning, run as one gated programme.",
+    "nodes": ["N1", "N2", "N3"]
+  },
+  {
+    "id": "pcb-enclosure",
+    "title": "PCB and enclosure design",
+    "body": "Schematic capture, layout for power and control stages, and enclosures designed for thermal, safety and serviceability needs.",
+    "nodes": ["N3"]
+  },
+  {
+    "id": "cae",
+    "title": "CAE and simulation",
+    "body": "Circuit, thermal and structural analysis to find design risks before hardware is built.",
+    "nodes": ["N3", "N4"]
+  },
+  {
+    "id": "ate-reliability",
+    "title": "ATE and reliability",
+    "body": "Test strategy, fixture and test-program definition, and reliability planning from DFMEA through validation.",
+    "nodes": ["N4", "N8"]
+  },
+  {
+    "id": "sourcing",
+    "title": "Sourcing",
+    "body": "BOM review, alternates and second sources, supplier comparison and lead-time planning.",
+    "nodes": ["N5", "N7"]
+  },
+  {
+    "id": "virtual-oem",
+    "title": "Virtual OEM",
+    "body": "Your product and brand, with ATHENA coordinating design, test, manufacturing partners and documentation.",
+    "nodes": ["N5", "N6", "N7"]
+  }
+]

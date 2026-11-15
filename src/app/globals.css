@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+
+  body {
+    @apply bg-white text-slate-800 antialiased;
+  }
+
+  section[id],
+  footer[id] {
+    scroll-margin-top: 5rem;
+  }
+
+  :focus-visible {
+    outline: 3px solid #0f766e;
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+
+  .on-dark :focus-visible {
+    outline-color: #5eead4;
+  }
+}
+
+/* Scroll reveal: the hidden state is only ever applied by JS (see Reveal.tsx),
+   so content stays visible without JS and under reduced motion. */
+.reveal-pending {
+  opacity: 0;
+  transform: translateY(16px);
+}
+
+.reveal-pending.reveal-in {
+  opacity: 1;
+  transform: none;
+  transition:
+    opacity 500ms ease-out,
+    transform 500ms ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal-pending {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
